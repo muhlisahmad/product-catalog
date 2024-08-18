@@ -85,7 +85,6 @@ export async function GET(req: NextRequest) {
       {
         status: "error",
         message: "An error occurred while fetching data",
-        error: error,
       },
       { status: 500 }
     );
